@@ -18,7 +18,7 @@ body {
 }
 
 .logo {
-    width: 30%;
+    width: 27%;
 }
 
 h1 {
@@ -36,8 +36,17 @@ h1 {
   }
 }
 
+/** Player de Música **/
+.music {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/** Para telas menores**/
 @media (max-width: 800px) {
     .logo {
-        width: 80%;
+        width: 75%;
     }
 }

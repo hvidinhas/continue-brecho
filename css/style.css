@@ -26,9 +26,7 @@ p {
 }
 
 .txt-play {
-    display: table;
     text-align: center;
-    width: 100%;
     font-size: 30px;
     font-family: Gamer;
 }

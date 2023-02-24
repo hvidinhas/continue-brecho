@@ -6,6 +6,7 @@
     font-style: normal;
 }
 
+/** ------------- Global ------------- **/
 body {
     background-color: #fec8df;
 
@@ -17,23 +18,12 @@ body {
     width: 100%;
 }
 
-.logo {
-    width: 27%;
-}
-
-h1 {
+p {
     text-align: center;
-    font-size: 60px;
+    font-size: 30px;
     font-family: Gamer;
-    font-weight: bold;
-    padding: 20px 0 0 20px;
-    animation: blinker 1.2s linear infinite;
-}
-
-@keyframes blinker {
-  50% {
-    opacity: 0;
-  }
+    max-width: 80%;
+    border: 1px solid red;
 }
 
 /** Player de Música **/
@@ -44,9 +34,64 @@ h1 {
     padding: 20px;
 }
 
-/** Para telas menores**/
+/** ------------- Celulares ------------- **/
 @media (max-width: 800px) {
     .logo {
         width: 75%;
     }
+    
+    p {
+        text-align: justify;
+        font-size: 30px;
+        font-family: Gamer;
+        max-width: 85%;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding: 20px 0 0 20px;
+        border: 1px solid red;
+    }
+
+
+
+}
+
+/** ------------- Tablets ------------- **/
+
+@media only screen and (min-width: 768px) {
+
+    .logo {
+        width: 50%;
+    }
+    
+    p {
+        text-align: left;
+        font-size: 28px;
+        font-family: Gamer;
+        max-width: 85%;
+        margin-left: 10%;
+        margin-right: 10%;
+        border: 1px solid red;
+    }
+
+}
+
+/** ------------- Desktops ------------- **/
+
+@media only screen and (min-width: 992px) {
+
+    .logo {
+        width: 30%;
+    }
+    
+    p {
+        text-align: left;
+        font-size: 27px;
+        font-family: Gamer;
+        max-width: 85%;
+        margin-left: 10%;
+        margin-right: 10%;
+        border: 1px solid red;
+    }
+
+
 }

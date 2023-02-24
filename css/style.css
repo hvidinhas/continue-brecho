@@ -23,7 +23,14 @@ p {
     font-size: 30px;
     font-family: Gamer;
     max-width: 80%;
-    border: 1px solid red;
+}
+
+.txt-play {
+    display: table;
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+    font-family: Gamer;
 }
 
 /** Player de Música **/
@@ -48,7 +55,6 @@ p {
         margin-left: 5%;
         margin-right: 5%;
         padding: 20px 0 0 20px;
-        border: 1px solid red;
     }
 
 
@@ -70,7 +76,6 @@ p {
         max-width: 85%;
         margin-left: 10%;
         margin-right: 10%;
-        border: 1px solid red;
     }
 
 }
@@ -90,7 +95,6 @@ p {
         max-width: 85%;
         margin-left: 10%;
         margin-right: 10%;
-        border: 1px solid red;
     }
 
 

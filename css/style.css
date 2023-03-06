@@ -6,6 +6,13 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: "Welbut";
+    src: url('../fonts/Welbut.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 /** ------------- Global ------------- **/
 body {
     background-color: #fec8df;
@@ -20,15 +27,14 @@ body {
 
 p {
     text-align: center;
-    font-size: 30px;
-    font-family: Gamer;
+    font-family: Welbut;
     max-width: 80%;
 }
 
 .txt-play {
     text-align: center;
     font-size: 30px;
-    font-family: Gamer;
+    font-family: Welbut;
 }
 
 /** Player de Música **/
@@ -54,7 +60,6 @@ p {
     p {
         text-align: justify;
         font-size: 30px;
-        font-family: Gamer;
         max-width: 85%;
         margin-left: 5%;
         margin-right: 5%;
@@ -76,7 +81,6 @@ p {
     p {
         text-align: left;
         font-size: 28px;
-        font-family: Gamer;
         max-width: 85%;
         margin-left: 10%;
         margin-right: 10%;
@@ -94,8 +98,7 @@ p {
     
     p {
         text-align: left;
-        font-size: 27px;
-        font-family: Gamer;
+        font-size: 20px;
         max-width: 85%;
         margin-left: 10%;
         margin-right: 10%;

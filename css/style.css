@@ -26,7 +26,7 @@ body {
 }
 
 p {
-    text-align: center;
+    text-align: left;
     font-family: Welbut;
     color: #8E72D6;
     max-width: 80%;
@@ -34,7 +34,6 @@ p {
 
 .txt-play {
     text-align: center;
-    font-size: 30px;
     font-family: Welbut;
 }
 
@@ -59,8 +58,7 @@ p {
     }
     
     p {
-        text-align: justify;
-        font-size: 30px;
+        font-size: 18px;
         max-width: 85%;
         margin-left: 5%;
         margin-right: 5%;
@@ -80,8 +78,7 @@ p {
     }
     
     p {
-        text-align: left;
-        font-size: 28px;
+        font-size: 23px;
         max-width: 85%;
         margin-left: 10%;
         margin-right: 10%;
@@ -98,12 +95,13 @@ p {
     }
     
     p {
-        text-align: left;
         font-size: 20px;
         max-width: 85%;
         margin-left: 10%;
         margin-right: 10%;
     }
-
+iframe {
+    width: 50%;
+  }
 
 }

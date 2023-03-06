@@ -37,18 +37,25 @@ p {
     font-family: Welbut;
 }
 
-/** Player de Música **/
-.music {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-}
-
 .spotify {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/** ------------- Desenvolvido por ------------- **/
+
+.dev-for {
+  max-width: 100%;
+  text-align: center;
+  font-size: 0.8em;
+  padding-top: 10%;
+
+}
+
+a {
+  text-decoration: none;
+  color: #8E72D6;
 }
 
 /** ------------- Celulares ------------- **/

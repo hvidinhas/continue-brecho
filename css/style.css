@@ -32,6 +32,11 @@ p {
     max-width: 80%;
 }
 
+.elfsight-app-fda0a2dd-b500-4dba-bbbc-a87466d5f7cd {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
 .txt-play {
     text-align: center;
     font-family: Welbut;
@@ -85,7 +90,7 @@ a {
     }
     
     p {
-        font-size: 23px;
+        font-size: 20px;
         max-width: 85%;
         margin-left: 10%;
         margin-right: 10%;

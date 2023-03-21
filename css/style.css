@@ -68,6 +68,10 @@ a {
     .logo {
         width: 75%;
     }
+
+    .banners{
+        width: 75%;
+    }
     
     p {
         font-size: 18px;

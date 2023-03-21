@@ -41,3 +41,55 @@
   text-decoration: none;
   transition: color .01s;
 }
+
+/** ------------- Celulares ------------- **/
+@media (max-width: 800px) {
+
+  .gallery {
+    position: relative;
+    text-align: center;
+    max-width: 100%;
+  
+  }
+
+  .gallery .item {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    text-align: center;
+    background: #fec8df;
+
+  }
+
+  .imgBanner {
+    max-width: 99%;
+  }
+
+}
+
+/** ------------- Tablets ------------- **/
+
+@media only screen and (min-width: 768px) {
+
+  .gallery {
+    position: relative;
+    text-align: center;
+    max-width: 100%;
+  
+  }
+
+  .gallery .item {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    text-align: center;
+    background: #fec8df;
+
+  }
+
+  .imgBanner {
+    max-width: 99%;
+  }
+
+
+}
